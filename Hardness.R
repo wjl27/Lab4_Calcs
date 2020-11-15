@@ -1,4 +1,4 @@
-####### HV Calculations ########
+####### HV Calculations v1.0 ########
 
 library(tidyverse)
 
@@ -46,7 +46,8 @@ s_x_bar.HAZ <- s_x.HAZ/sqrt(N.HAZ) # This is the standard error in the data set
 
 FZ.dat <- data %>%
   select(2,3,5) %>%
-  filter(x.coord < 15141 & x.coord > 11679)
+  filter(x.coord < 15141 & x.coord > 11679) %>%
+  filter(y.coord > 5000)
 
 N.FZ = nrow(FZ.dat) # Number of Samples
 

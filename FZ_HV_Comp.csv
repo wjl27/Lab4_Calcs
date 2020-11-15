@@ -1,0 +1,9 @@
+,VI,VII,,,,,
+N,353,300,,nu,nu (rounded),t_crit,t_stat
+x_bar,169.286119,160.6833333,,739.9585539,740,1.963,9.931322977
+s_x,14.07267076,7.536514605,,,,,
+,,,,,,Link for how I got t_crit,
+,,,,,,http://onlinestatbook.com/2/calculators/inverse_t_dist.html,
+,,,,,,,
+,,,,,,,
+"I used a two tailed test with this data, and as you can clearly see t_stat is far outsid of t_crit. This means we reject the null hypothesis, and the bottom hardness is significantly different from the top hardness.",,,,,,,
